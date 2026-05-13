@@ -1,19 +1,20 @@
 [
   {
-    "title": "GoPro HERO12 Black",
+    "title": "Insta360 X5",
     "featured": true,
     "position": 1,
     "price": 4,
     "max": 4,
     "bullets": [
-      "What I filmed last week's hike on",
-      "5.3K + HyperSmooth 6.0 stabilization",
-      "Surprisingly good in low light at sunset"
+      "8K30 360° camera",
+      "Record from any angle and reframe in post",
+      "PureVideo mode is surprisingly clean in low light",
+      "User-replaceable lenses, finally"
     ],
     "placeholder": "Camera body",
     "from": "Amazon",
-    "url": "#",
-    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    "url": "https://amzn.to/4dGBtvQ",
+    "video": ""
   },
   {
     "title": "Peak Design Travel Tripod",
