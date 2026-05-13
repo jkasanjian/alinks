@@ -1,0 +1,104 @@
+[
+  {
+    "title": "Salomon X Ultra 4 GTX",
+    "price": 3,
+    "max": 4,
+    "bullets": [
+      "Day-hike workhorse — broke in instantly",
+      "Quicklace = no double-knots",
+      "Grippy on wet granite"
+    ],
+    "placeholder": "Hiking shoes",
+    "from": "Salomon",
+    "url": "#",
+    "video": ""
+  },
+  {
+    "title": "Osprey Talon 22",
+    "price": 2,
+    "max": 4,
+    "bullets": [
+      "Best-fitting daypack I own",
+      "Hip belt pockets actually fit a phone",
+      "Bungee for layers I keep peeling off"
+    ],
+    "placeholder": "Daypack",
+    "from": "Osprey",
+    "url": "#",
+    "video": ""
+  },
+  {
+    "title": "Leki Cross Trail FX Carbon",
+    "price": 3,
+    "max": 4,
+    "bullets": [
+      "Folding, fits in the pack on flats",
+      "Saved my knees on the descent at Half Dome",
+      "Cork grips don't get slimy"
+    ],
+    "placeholder": "Trekking poles",
+    "from": "REI",
+    "url": "#",
+    "video": ""
+  },
+  {
+    "title": "Darn Tough Hiker Micro Crew",
+    "price": 2,
+    "max": 4,
+    "bullets": [
+      "Lifetime warranty, not an exaggeration",
+      "I own seven pairs in identical color",
+      "Merino — no smell after 3 days"
+    ],
+    "placeholder": "Hiking socks",
+    "from": "Darn Tough",
+    "url": "#",
+    "video": ""
+  },
+  {
+    "title": "Garmin inReach Mini 2",
+    "price": 4,
+    "max": 4,
+    "bullets": [
+      "Two-way satellite messaging when there's no service",
+      "SOS button I hope I never press",
+      "Mom approved"
+    ],
+    "placeholder": "Satellite communicator",
+    "from": "Garmin",
+    "url": "#",
+    "video": ""
+  },
+  {
+    "title": "Patagonia Down Sweater",
+    "featured": true,
+    "position": 3,
+    "price": 3,
+    "max": 4,
+    "bullets": [
+      "The exact jacket from the Yosemite tunnel view post",
+      "800-fill recycled down, packs into its own pocket",
+      "Wind-resistant; great as a midlayer under a shell"
+    ],
+    "placeholder": "Puffy jacket",
+    "from": "Patagonia",
+    "url": "#",
+    "video": ""
+  },
+  {
+    "title": "Hydro Flask 32oz Wide Mouth",
+    "featured": true,
+    "position": 4,
+    "price": 2,
+    "max": 4,
+    "bullets": [
+      "Holds ice for ~24h in summer heat",
+      "Flex Cap doesn't leak in the pack",
+      "Mine has dents and scratches and still going"
+    ],
+    "placeholder": "Insulated bottle",
+    "from": "REI",
+    "url": "#",
+    "video": ""
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Red Paddle Co 10'6\" Ride",
+    "price": 4,
+    "max": 4,
+    "bullets": [
+      "Inflatable but rock-stiff at 20psi",
+      "Stable enough for pup passenger",
+      "Bag actually rolls like a suitcase"
+    ],
+    "placeholder": "Paddleboard",
+    "from": "Red Paddle",
+    "url": "#",
+    "video": ""
+  },
+  {
+    "title": "Werner Zen 85 paddle",
+    "price": 3,
+    "max": 4,
+    "bullets": [
+      "Carbon shaft, light enough for long days",
+      "Adjustable — fits everyone in the truck",
+      "Worth the upgrade from the bundled paddle"
+    ],
+    "placeholder": "Paddle",
+    "from": "Werner",
+    "url": "#",
+    "video": ""
+  },
+  {
+    "title": "NRS Ninja PFD",
+    "price": 2,
+    "max": 4,
+    "bullets": [
+      "Low-profile, doesn't ride up when paddling",
+      "Front pocket fits keys + a clif bar",
+      "Comfy enough you actually wear it"
+    ],
+    "placeholder": "PFD",
+    "from": "NRS",
+    "url": "#",
+    "video": ""
+  },
+  {
+    "title": "YETI Panga 28 dry duffel",
+    "price": 3,
+    "max": 4,
+    "bullets": [
+      "Submersible — tested by accident",
+      "Tough TPU shell — UV doesn't fade it",
+      "Holds a full overnight kit"
+    ],
+    "placeholder": "Dry bag",
+    "from": "YETI",
+    "url": "#",
+    "video": ""
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Big Agnes Copper Spur HV UL2",
+    "price": 4,
+    "max": 4,
+    "bullets": [
+      "3.1lb — feels palatial for one person",
+      "Survived a 40mph gust night at Trail Crest",
+      "Two doors, two vestibules — non-negotiable"
+    ],
+    "placeholder": "Tent",
+    "from": "REI",
+    "url": "#",
+    "video": ""
+  },
+  {
+    "title": "NEMO Tensor Insulated",
+    "price": 3,
+    "max": 4,
+    "bullets": [
+      "R-value 4.2 — good for shoulder-season snow",
+      "Whisper-quiet (no crinkle)",
+      "Pump sack fills it in 90 seconds"
+    ],
+    "placeholder": "Sleeping pad",
+    "from": "REI",
+    "url": "#",
+    "video": ""
+  },
+  {
+    "title": "Western Mountaineering Versalite",
+    "price": 4,
+    "max": 4,
+    "bullets": [
+      "10°F bag I'd buy again tomorrow",
+      "850-fill, made in the USA",
+      "Sized 6'0\" — fits with room for layers"
+    ],
+    "placeholder": "Sleeping bag",
+    "from": "Western Mountaineering",
+    "url": "#",
+    "video": ""
+  },
+  {
+    "title": "MSR PocketRocket 2",
+    "price": 1,
+    "max": 4,
+    "bullets": [
+      "Boils 1L in ~3.5 minutes",
+      "Folds into a pill bottle",
+      "Dirt-simple, never failed me"
+    ],
+    "placeholder": "Stove",
+    "from": "Amazon",
+    "url": "#",
+    "video": ""
+  },
+  {
+    "title": "BioLite HeadLamp 425",
+    "price": 2,
+    "max": 4,
+    "bullets": [
+      "Doesn't bounce on uneven ground",
+      "USB-C rechargeable, 8h on high",
+      "Red mode for camp / not blinding friends"
+    ],
+    "placeholder": "Headlamp",
+    "from": "BioLite",
+    "url": "#",
+    "video": ""
+  },
+  {
+    "title": "Sea to Summit Aeros Pillow",
+    "price": 2,
+    "max": 4,
+    "bullets": [
+      "The reason I sleep at all",
+      "Inflates with three breaths",
+      "Curved shape stays put on a pad"
+    ],
+    "placeholder": "Pillow",
+    "from": "REI",
+    "url": "#",
+    "video": ""
+  }
+]

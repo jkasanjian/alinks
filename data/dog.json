@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Ruffwear Front Range harness",
+    "price": 2,
+    "max": 4,
+    "bullets": [
+      "The harness from every dog video",
+      "Two leash attach points (front + back)",
+      "Reflective trim for early starts"
+    ],
+    "placeholder": "Dog harness",
+    "from": "Ruffwear",
+    "url": "#",
+    "video": ""
+  },
+  {
+    "title": "Ruffwear Web Master",
+    "price": 3,
+    "max": 4,
+    "bullets": [
+      "Has a real handle — for sketchy scrambles",
+      "Five points of adjustment",
+      "What I'd buy if I only owned one"
+    ],
+    "placeholder": "Trail harness",
+    "from": "Ruffwear",
+    "url": "#",
+    "video": ""
+  },
+  {
+    "title": "Kurgo Quantum 6-in-1 leash",
+    "price": 2,
+    "max": 4,
+    "bullets": [
+      "Hands-free waist mode for trail running",
+      "Padded handle close to collar for traffic",
+      "One leash that's actually six"
+    ],
+    "placeholder": "Leash",
+    "from": "Amazon",
+    "url": "#",
+    "video": ""
+  },
+  {
+    "title": "Outward Hound DayPak",
+    "price": 1,
+    "max": 4,
+    "bullets": [
+      "She carries her own water + snacks",
+      "Saddle-style fits across her ribs",
+      "Reflective panels for low light"
+    ],
+    "placeholder": "Dog backpack",
+    "from": "Chewy",
+    "url": "#",
+    "video": ""
+  },
+  {
+    "title": "Kurgo Splash Free Wander",
+    "price": 1,
+    "max": 4,
+    "bullets": [
+      "Collapsible silicone water bowl",
+      "Clips to the harness — never lost",
+      "Holds 24oz, packs flat"
+    ],
+    "placeholder": "Travel bowl",
+    "from": "Amazon",
+    "url": "#",
+    "video": ""
+  }
+]
