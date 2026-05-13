@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>Alex Outside — Gear I actually use</title>
+<title>Josh's Outdoor Gear</title>
 <meta name="description" content="Affiliate links for the gear I bring on hikes, snowboard trips, paddleboards, and dog adventures." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏞️</text></svg>" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -764,7 +765,7 @@
       </ul>
     </div>
   </div>
-  <p class="disclosure">// AFFILIATE DISCLOSURE — Some links on this page are affiliate links. If you buy through them I earn a small commission at no extra cost to you. I only link gear I personally use and would recommend to a friend. Thanks for the support 🤙</p>
+  <p class="disclosure">// AFFILIATE DISCLOSURE — Links marked with an asterisk (*) are affiliate links. If you buy through them I earn a small commission at no extra cost to you. Links without an asterisk are not affiliated. I only link gear I personally use and would recommend to a friend. Thanks for the support 🤙</p>
 </footer>
 
 <a class="bmc" href="https://www.buymeacoffee.com/joshgoesoutside" target="_blank" rel="noopener" aria-label="Buy me a coffee">
@@ -827,6 +828,7 @@ function makeCard(item, opts={}){
        </div>`;
   const url = item.url || '#';
   const max = item.max || 4;
+  const affiliated = item.isAffiliated !== false;
   return `
     <article class="card">
       ${badgeHtml}
@@ -840,8 +842,8 @@ function makeCard(item, opts={}){
           ${(item.bullets || []).map(b => `<li>${escapeHtml(b)}</li>`).join('')}
         </ul>
         <div class="card-cta">
-          <a class="buy" href="${escapeHtml(url)}" rel="nofollow sponsored noopener" target="_blank">
-            Link to buy <span class="arrow">↗</span>
+          <a class="buy" href="${escapeHtml(url)}" rel="nofollow${affiliated ? ' sponsored' : ''} noopener" target="_blank">
+            Link to buy${affiliated ? '*' : ''} <span class="arrow">↗</span>
           </a>
           <span class="from">${escapeHtml(item.from)}</span>
         </div>
