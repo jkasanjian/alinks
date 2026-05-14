@@ -1,72 +1,27 @@
 [
   {
-    "title": "Ruffwear Front Range harness",
-    "price": 2,
-    "max": 4,
+    "title": "Mini Dog Treat Pouch for Training",
+    "price": 1,
     "bullets": [
-      "The harness from every dog video",
-      "Two leash attach points (front + back)",
-      "Reflective trim for early starts"
+      "Small pouch that clips to your belt or backpack strap",
+      "Velcro seal is easy to open with one hand and holds closed securely"
     ],
-    "placeholder": "Dog harness",
-    "from": "Ruffwear",
-    "url": "#",
+    "placeholder": "Treat pouch",
+    "from": "Amazon",
+    "url": "https://amzn.to/3OYOB6k",
     "video": ""
   },
   {
-    "title": "Ruffwear Web Master",
+    "title": "Elevated Portable Dog Bed",
     "price": 3,
-    "max": 4,
     "bullets": [
-      "Has a real handle — for sketchy scrambles",
-      "Five points of adjustment",
-      "What I'd buy if I only owned one"
+      "Packs down for easy transport",
+      "Seems comfortable for my dog and keeps her off the ground - important for camping on hot days",
+      "What I'd buy if I could only own a single bed"
     ],
-    "placeholder": "Trail harness",
-    "from": "Ruffwear",
-    "url": "#",
-    "video": ""
-  },
-  {
-    "title": "Kurgo Quantum 6-in-1 leash",
-    "price": 2,
-    "max": 4,
-    "bullets": [
-      "Hands-free waist mode for trail running",
-      "Padded handle close to collar for traffic",
-      "One leash that's actually six"
-    ],
-    "placeholder": "Leash",
+    "placeholder": "Dog bed",
     "from": "Amazon",
-    "url": "#",
-    "video": ""
-  },
-  {
-    "title": "Outward Hound DayPak",
-    "price": 1,
-    "max": 4,
-    "bullets": [
-      "She carries her own water + snacks",
-      "Saddle-style fits across her ribs",
-      "Reflective panels for low light"
-    ],
-    "placeholder": "Dog backpack",
-    "from": "Chewy",
-    "url": "#",
-    "video": ""
-  },
-  {
-    "title": "Kurgo Splash Free Wander",
-    "price": 1,
-    "max": 4,
-    "bullets": [
-      "Collapsible silicone water bowl",
-      "Clips to the harness — never lost",
-      "Holds 24oz, packs flat"
-    ],
-    "placeholder": "Travel bowl",
-    "from": "Amazon",
-    "url": "#",
+    "url": "https://amzn.to/4wu4jHl",
     "video": ""
   }
 ]

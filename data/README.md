@@ -21,7 +21,6 @@ Each category section of the page is driven by its own JSON file in this `data/`
 {
   "title": "GoPro HERO12 Black",
   "price": 4,
-  "max": 4,
   "bullets": [
     "What I filmed last week's hike on",
     "5.3K + HyperSmooth 6.0 stabilization",
@@ -39,8 +38,7 @@ Each category section of the page is driven by its own JSON file in this `data/`
 ### Fields
 
 - **title** — product name shown on the card.
-- **price** — number of filled `$` icons (0–`max`).
-- **max** — total `$` icons. Usually `4`.
+- **price** — number of filled `$` icons (0–4).
 - **bullets** — short list of personal notes. 2–4 looks best.
 - **placeholder** — text shown in the striped placeholder until you add a real product image (see below).
 - **from** — the retailer label in the bottom-right of the card (e.g. `Amazon`, `REI`).

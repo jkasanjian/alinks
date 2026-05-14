@@ -1145,9 +1145,9 @@
     ];
 
     /* ---------------- RENDER ---------------- */
-    function priceMarks(n, max = 4) {
+    function priceMarks(n) {
       let s = '';
-      for (let i = 0; i < max; i++) {
+      for (let i = 0; i < 4; i++) {
         s += `<span class="${i < n ? 'on' : ''}">$</span>`;
       }
       return s;
@@ -1170,7 +1170,6 @@
          <span>${escapeHtml(item.placeholder || item.title)}</span>
        </div>`;
       const url = item.url || '#';
-      const max = item.max || 4;
       const affiliated = item.isAffiliated !== false;
       return `
     <article class="card">
@@ -1179,7 +1178,7 @@
       <div class="card-body">
         <div class="card-top">
           <h3 class="card-title">${escapeHtml(item.title)}</h3>
-          <div class="price" aria-label="Price tier ${item.price} of ${max}">${priceMarks(item.price, max)}</div>
+          <div class="price" aria-label="Price tier ${item.price} of 4">${priceMarks(item.price)}</div>
         </div>
         <ul class="bullets">
           ${(item.bullets || []).map(b => `<li>${escapeHtml(b)}</li>`).join('')}

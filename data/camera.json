@@ -4,116 +4,30 @@
     "featured": true,
     "position": 1,
     "price": 4,
-    "max": 4,
     "bullets": [
       "Best 8K 360° camera on the market",
       "Record from any angle and easily reframe in post",
       "PureVideo mode is surprisingly decent in low-light",
       "User-replaceable lenses is a huge plus"
     ],
-    "placeholder": "Camera body",
+    "placeholder": "X5 image",
     "from": "Amazon",
     "url": "https://amzn.to/4dGBtvQ",
     "video": ""
   },
   {
-    "title": "Peak Design Travel Tripod",
-    "featured": true,
+    "title": "Extra long action selfie stick",
+    "featured": false,
     "position": 2,
-    "price": 4,
-    "max": 4,
+    "price": 1,
     "bullets": [
-      "Carbon legs, packs to the size of a water bottle",
-      "Survived a fall on slickrock in Moab",
-      "Setup in under 10 seconds for B-roll"
+      "Built sturdy enough to hold the X5 at full extension",
+      "Great angle for wide shots",
+      "Packs down much smaller than the official extended selfie stick"
     ],
-    "placeholder": "Tripod",
-    "from": "Peak Design",
-    "url": "#",
-    "video": ""
-  },
-  {
-    "title": "DJI Osmo Pocket 3",
-    "price": 4,
-    "max": 4,
-    "bullets": [
-      "Pocketable 1\" sensor gimbal",
-      "What I use for vlog-style B-roll",
-      "Magnetic mic pairs in seconds"
-    ],
-    "placeholder": "Pocket gimbal",
-    "from": "B&H",
-    "url": "#",
-    "video": ""
-  },
-  {
-    "title": "DJI Mic 2",
-    "price": 3,
-    "max": 4,
-    "bullets": [
-      "Crystal audio when filming on a windy ridge",
-      "32-bit float, no clipping ever",
-      "Charging case that just works"
-    ],
-    "placeholder": "Wireless mic",
+    "placeholder": "Selfie stick",
     "from": "Amazon",
-    "url": "#",
-    "video": ""
-  },
-  {
-    "title": "Insta360 X4",
-    "price": 4,
-    "max": 4,
-    "bullets": [
-      "8K 360 — reframe in post",
-      "Selfie stick disappears in the footage",
-      "Replaceable lens guards (saved me twice)"
-    ],
-    "placeholder": "360 camera",
-    "from": "Insta360",
-    "url": "#",
-    "video": ""
-  },
-  {
-    "title": "PolarPro ND filter set",
-    "price": 3,
-    "max": 4,
-    "bullets": [
-      "For shooting cinematic in bright sun",
-      "Magnetic — swap mid-shot",
-      "Shutter angle goal: 180°"
-    ],
-    "placeholder": "ND filters",
-    "from": "PolarPro",
-    "url": "#",
-    "video": ""
-  },
-  {
-    "title": "SanDisk Extreme Pro 256GB",
-    "price": 2,
-    "max": 4,
-    "bullets": [
-      "V30, fast enough for 5.3K",
-      "I carry three of them, always",
-      "The orange ones don't get lost in the bag"
-    ],
-    "placeholder": "SD card",
-    "from": "Amazon",
-    "url": "#",
-    "video": ""
-  },
-  {
-    "title": "Anker 737 PowerBank",
-    "price": 3,
-    "max": 4,
-    "bullets": [
-      "140W, charges the laptop and the camera",
-      "Lasts a 4-day trip if I'm careful",
-      "Display tells you exact watts in/out"
-    ],
-    "placeholder": "Power bank",
-    "from": "Anker",
-    "url": "#",
+    "url": "https://amzn.to/3PoBRpF",
     "video": ""
   }
 ]

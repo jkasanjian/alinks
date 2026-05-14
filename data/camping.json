@@ -1,86 +1,41 @@
 [
   {
-    "title": "Big Agnes Copper Spur HV UL2",
+    "title": "HEST Foamy Camping Mattress Pad",
     "price": 4,
-    "max": 4,
     "bullets": [
-      "3.1lb — feels palatial for one person",
-      "Survived a 40mph gust night at Trail Crest",
-      "Two doors, two vestibules — non-negotiable"
+      "Memory foam is super comfortable to sleep on even on hard surfaces",
+      "Rolls up to a smaller size for easy transport",
+      "I never have back pain with this pad"
     ],
-    "placeholder": "Tent",
-    "from": "REI",
-    "url": "#",
-    "video": ""
-  },
-  {
-    "title": "NEMO Tensor Insulated",
-    "price": 3,
-    "max": 4,
-    "bullets": [
-      "R-value 4.2 — good for shoulder-season snow",
-      "Whisper-quiet (no crinkle)",
-      "Pump sack fills it in 90 seconds"
-    ],
-    "placeholder": "Sleeping pad",
-    "from": "REI",
-    "url": "#",
-    "video": ""
-  },
-  {
-    "title": "Western Mountaineering Versalite",
-    "price": 4,
-    "max": 4,
-    "bullets": [
-      "10°F bag I'd buy again tomorrow",
-      "850-fill, made in the USA",
-      "Sized 6'0\" — fits with room for layers"
-    ],
-    "placeholder": "Sleeping bag",
-    "from": "Western Mountaineering",
-    "url": "#",
-    "video": ""
-  },
-  {
-    "title": "MSR PocketRocket 2",
-    "price": 1,
-    "max": 4,
-    "bullets": [
-      "Boils 1L in ~3.5 minutes",
-      "Folds into a pill bottle",
-      "Dirt-simple, never failed me"
-    ],
-    "placeholder": "Stove",
+    "placeholder": "Camping mattress",
     "from": "Amazon",
-    "url": "#",
+    "url": "https://amzn.to/4dHLl8D",
     "video": ""
   },
   {
-    "title": "BioLite HeadLamp 425",
-    "price": 2,
-    "max": 4,
+    "title": "Anker Portable Power Station SOLIX C300",
+    "price": 4,
     "bullets": [
-      "Doesn't bounce on uneven ground",
-      "USB-C rechargeable, 8h on high",
-      "Red mode for camp / not blinding friends"
+      "300Wh capacity — enough for an entire weekend with multiple devices",
+      "Much more compact than other models at this capacity",
+      "Chargable via solar panels, car, or wall outlet"
     ],
-    "placeholder": "Headlamp",
-    "from": "BioLite",
-    "url": "#",
+    "placeholder": "Anker battery",
+    "from": "Amazon",
+    "url": "https://amzn.to/49MPgyB",
     "video": ""
   },
   {
-    "title": "Sea to Summit Aeros Pillow",
-    "price": 2,
-    "max": 4,
+    "title": "LifeStraw Peak Series Personal Water Filter",
+    "price": 1,
     "bullets": [
-      "The reason I sleep at all",
-      "Inflates with three breaths",
-      "Curved shape stays put on a pad"
+      "Lets you drink out of any lake or stream",
+      "You can trust it really filters things out",
+      "Small and portable, and can save your life in an emergency"
     ],
-    "placeholder": "Pillow",
-    "from": "REI",
-    "url": "#",
+    "placeholder": "Water filter",
+    "from": "Amazon",
+    "url": "https://amzn.to/4wIEcg2",
     "video": ""
   }
 ]

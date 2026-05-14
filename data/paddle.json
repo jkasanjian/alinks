@@ -2,7 +2,6 @@
   {
     "title": "Red Paddle Co 10'6\" Ride",
     "price": 4,
-    "max": 4,
     "bullets": [
       "Inflatable but rock-stiff at 20psi",
       "Stable enough for pup passenger",
@@ -16,7 +15,6 @@
   {
     "title": "Werner Zen 85 paddle",
     "price": 3,
-    "max": 4,
     "bullets": [
       "Carbon shaft, light enough for long days",
       "Adjustable — fits everyone in the truck",
@@ -30,7 +28,6 @@
   {
     "title": "NRS Ninja PFD",
     "price": 2,
-    "max": 4,
     "bullets": [
       "Low-profile, doesn't ride up when paddling",
       "Front pocket fits keys + a clif bar",
@@ -44,7 +41,6 @@
   {
     "title": "YETI Panga 28 dry duffel",
     "price": 3,
-    "max": 4,
     "bullets": [
       "Submersible — tested by accident",
       "Tough TPU shell — UV doesn't fade it",
