@@ -11,44 +11,5 @@
     "from": "Red Paddle",
     "url": "#",
     "video": ""
-  },
-  {
-    "title": "Werner Zen 85 paddle",
-    "price": 3,
-    "bullets": [
-      "Carbon shaft, light enough for long days",
-      "Adjustable — fits everyone in the truck",
-      "Worth the upgrade from the bundled paddle"
-    ],
-    "placeholder": "Paddle",
-    "from": "Werner",
-    "url": "#",
-    "video": ""
-  },
-  {
-    "title": "NRS Ninja PFD",
-    "price": 2,
-    "bullets": [
-      "Low-profile, doesn't ride up when paddling",
-      "Front pocket fits keys + a clif bar",
-      "Comfy enough you actually wear it"
-    ],
-    "placeholder": "PFD",
-    "from": "NRS",
-    "url": "#",
-    "video": ""
-  },
-  {
-    "title": "YETI Panga 28 dry duffel",
-    "price": 3,
-    "bullets": [
-      "Submersible — tested by accident",
-      "Tough TPU shell — UV doesn't fade it",
-      "Holds a full overnight kit"
-    ],
-    "placeholder": "Dry bag",
-    "from": "YETI",
-    "url": "#",
-    "video": ""
   }
 ]

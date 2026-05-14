@@ -2,7 +2,7 @@
   {
     "title": "Insta360 X5",
     "featured": true,
-    "position": 1,
+    "position": 2,
     "price": 4,
     "bullets": [
       "Best 8K 360° camera on the market",
@@ -10,7 +10,7 @@
       "PureVideo mode is surprisingly decent in low-light",
       "User-replaceable lenses is a huge plus"
     ],
-    "placeholder": "X5 image",
+    "placeholder": "X5 camera",
     "from": "Amazon",
     "url": "https://amzn.to/4dGBtvQ",
     "video": ""
