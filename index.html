@@ -553,10 +553,10 @@
       font-size: 13px;
       padding: 7px 13px;
       border-radius: 999px;
-      border: 1px solid var(--line);
-      background: var(--paper);
-      color: var(--ink-soft);
-      transition: all .15s ease;
+      border: 1px solid var(--ink);
+      background: var(--ink);
+      color: var(--cream);
+      transition: transform .15s ease, background .15s ease;
       cursor: pointer;
       display: inline-flex;
       align-items: center;
@@ -568,14 +568,8 @@
     }
 
     .chip:hover {
-      border-color: var(--ink);
-      color: var(--ink);
-    }
-
-    .chip.active {
-      background: var(--ink);
-      color: var(--cream);
-      border-color: var(--ink);
+      background: oklch(0.18 0.022 145);
+      transform: translateY(-1px);
     }
 
     /* ---------- DIVIDERS ---------- */
@@ -888,7 +882,7 @@
 
     <!-- CHIPS / QUICK NAV -->
     <nav class="chip-row" aria-label="Categories">
-      <a class="chip active" href="#featured">Featured</a>
+      <a class="chip" href="#featured">Featured</a>
       <a class="chip" href="#camera">Camera</a>
       <a class="chip" href="#camping">Camping</a>
       <a class="chip" href="#hiking">Hiking</a>
@@ -1280,22 +1274,6 @@
       group.addEventListener('refresh', update);
       update();
     });
-
-    /* ---------------- ACTIVE CHIP ON SCROLL ---------------- */
-    const chips = document.querySelectorAll('.chip');
-    const sections = ['featured', 'camera', 'camping', 'hiking', 'snowboard', 'paddle', 'dog']
-      .map(id => document.getElementById(id)).filter(Boolean);
-
-    const obs = new IntersectionObserver(entries => {
-      entries.forEach(e => {
-        if (e.isIntersecting) {
-          const id = e.target.id;
-          chips.forEach(c => c.classList.toggle('active', c.getAttribute('href') === '#' + id));
-        }
-      });
-    }, { rootMargin: '-40% 0px -55% 0px', threshold: 0 });
-
-    sections.forEach(s => obs.observe(s));
 
     /* ---------------- PARALLAX ---------------- */
     const heroBg = document.getElementById('heroBg');

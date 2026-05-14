@@ -23,7 +23,7 @@ Render flow, all in `index.html`:
 3. `makeCard()` (~line 818) renders one product. All user-controlled strings go through `escapeHtml()` — keep it that way.
 4. `showLoadError()` renders an in-place error card when a JSON fetch fails (e.g., served over `file://`).
 
-**Adding a new category** requires changes in three places: a new `data/<name>.json` file, a new entry in `SECTIONS`, and a new `<section>` + carousel container in the HTML with the matching `target` id. The chip-nav `IntersectionObserver` (~line 942) also has a hardcoded section-id list — update it too, or the active-chip highlight won't work for the new section.
+**Adding a new category** requires changes in three places: a new `data/<name>.json` file, a new entry in `SECTIONS`, and a new `<section>` + carousel container in the HTML with the matching `target` id. Add a matching `<a class="chip" href="#<id>">` in the `.chip-row` nav too.
 
 ## Editing rules
 - **Product content**: edit `data/<category>.json`. Schema is documented in `data/README.md`. Do NOT add fields without updating the rendering code in `index.html`.
