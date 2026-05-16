@@ -13,19 +13,6 @@
     "video": ""
   },
   {
-    "title": "Union Strata Bindings",
-    "price": 3,
-    "bullets": [
-      "Forgiving but responsive",
-      "Easy to strap in with cold hands",
-      "Replaceable parts — built to last"
-    ],
-    "placeholder": "Bindings",
-    "from": "Evo",
-    "url": "#",
-    "video": ""
-  },
-  {
     "title": "Smith 4D Mag goggles",
     "price": 4,
     "bullets": [
@@ -35,32 +22,6 @@
     ],
     "placeholder": "Goggles",
     "from": "Smith",
-    "url": "#",
-    "video": ""
-  },
-  {
-    "title": "Arc'teryx Sabre Bib",
-    "price": 4,
-    "bullets": [
-      "3L Gore-Tex, dry through deep days",
-      "Drop-seat zip — pee break in 8 seconds",
-      "Worth it; hurts to type"
-    ],
-    "placeholder": "Snow bib",
-    "from": "Arc'teryx",
-    "url": "#",
-    "video": ""
-  },
-  {
-    "title": "Hestra Army Leather Heli Ski",
-    "price": 3,
-    "bullets": [
-      "Waterproof leather + removable wool liner",
-      "Cuffed so snow stays out",
-      "Year 4 and only better"
-    ],
-    "placeholder": "Gloves",
-    "from": "Hestra",
     "url": "#",
     "video": ""
   }
