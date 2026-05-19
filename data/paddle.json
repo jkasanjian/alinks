@@ -2,10 +2,12 @@
   {
     "title": "Inflatable Paddleboard",
     "price": 3,
+    "featured": true,
+    "position": 2,
     "bullets": [
-      "Inflatable but very durable and stable once inflated",
-      "Large enough for 2-3 people/dogs",
-      "Easy to transport"
+      "Inflatable but solid and durable once inflated",
+      "Large and stable enough for 2-3 people/dogs - fits a chair",
+      "Easy to transport rolled-up in bag"
     ],
     "placeholder": "Paddleboard",
     "from": "Amazon",

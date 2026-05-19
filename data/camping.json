@@ -13,30 +13,30 @@
     "video": ""
   },
   {
-    "title": "Anker Portable Power Station SOLIX C300",
+    "title": "Anker SOLIX C300 Power Station",
     "price": 3,
-    "featured": true,
+    "featured": false,
     "bullets": [
       "Enough capacity to cover me for 3-4 days with all my devices",
       "Compact and easy to carry despite massive capacity",
       "Charge with solar panel or dual USB-C"
     ],
-    "placeholder": "Anker battery",
+    "placeholder": "Battery",
     "from": "Amazon",
     "url": "https://amzn.to/49MPgyB",
     "video": ""
   },
   {
-    "title": "Anker Solar Panel",
-    "price": 3,
-    "featured": true,
+    "title": "Anker SOLIX C200 Solar Panel ",
+    "price": 2,
+    "featured": false,
     "bullets": [
-      "Compact",
+      "Compact and captures a good amount of sunlight to charge things up",
       "Peace-of-mind that you'll always have power when paired with a battery"
     ],
-    "placeholder": "Anker battery",
+    "placeholder": "Solar panel",
     "from": "Amazon",
-    "url": "https://amzn.to/49MPgyB",
+    "url": "https://amzn.to/4wEBhET",
     "video": ""
   },
   {
