@@ -1,15 +1,27 @@
 [
   {
-    "title": "Red Paddle Co 10'6\" Ride",
-    "price": 4,
+    "title": "Inflatable Paddleboard (fits 2-3 ppl)",
+    "price": 2,
     "bullets": [
-      "Inflatable but rock-stiff at 20psi",
-      "Stable enough for pup passenger",
-      "Bag actually rolls like a suitcase"
+      "Inflatable but solid and durable once inflated",
+      "Stable enough for 2-3 people or dogs",
+      "Easy to transport"
     ],
     "placeholder": "Paddleboard",
-    "from": "Red Paddle",
-    "url": "#",
+    "from": "Amazon",
+    "url": "https://amzn.to/4uk8aVZ",
+    "video": ""
+  },
+  {
+    "title": "Electric Pump for paddleboards",
+    "price": 1,
+    "bullets": [
+      "Inflates my paddleboard in a few minutes, easier than the manual pump",
+      "Battery lasts for multiple inflations/deflations, USB-C rechargeable"
+    ],
+    "placeholder": "Pump",
+    "from": "Amazon",
+    "url": "https://amzn.to/3PBkd1Q",
     "video": ""
   }
 ]

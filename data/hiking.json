@@ -1,28 +1,28 @@
 [
   {
-    "title": "Salomon X Ultra 4 GTX",
+    "title": "Nocs Zero Tube Monocular",
     "price": 3,
     "bullets": [
-      "Day-hike workhorse — broke in instantly",
-      "Quicklace = no double-knots",
-      "Grippy on wet granite"
+      "Very small and light",
+      "Fun to bring on a hike and spot animals or zoom on distant views",
+      "Durable & waterproof"
     ],
-    "placeholder": "Hiking shoes",
-    "from": "Salomon",
-    "url": "#",
+    "placeholder": "Monocular",
+    "from": "Amazon",
+    "url": "https://amzn.to/4v2pXRD",
     "video": ""
   },
   {
-    "title": "Osprey Talon 22",
+    "title": "Osprey Talon 26L Backpack",
     "price": 2,
     "bullets": [
-      "Best-fitting daypack I own",
-      "Hip belt pockets actually fit a phone",
-      "Bungee for layers I keep peeling off"
+      "Lightweight and comfortable",
+      "Plenty of pockets and compartments for a full day of hiking",
+      "Hydration reservoir compatible"
     ],
     "placeholder": "Daypack",
-    "from": "Osprey",
-    "url": "#",
+    "from": "Amazon",
+    "url": "https://amzn.to/42HMerG",
     "video": ""
   }
 ]

@@ -1,28 +1,28 @@
 [
   {
-    "title": "Burton Custom X 2025",
-    "price": 4,
+    "title": "Protective Padded Shorts",
+    "price": 1,
     "bullets": [
-      "Stiff, all-mountain charger",
-      "What I'm riding at Tahoe this season",
-      "Holds an edge through chunder"
+      "Comfortable and low-profile, don't restrict movement",
+      "Saved my ass and hips from bruising during many hard falls",
+      "Must-have when learning and progressing"
     ],
-    "placeholder": "Snowboard",
-    "from": "Burton",
-    "url": "#",
+    "placeholder": "Shorts",
+    "from": "Amazon",
+    "url": "https://amzn.to/4dhbv22",
     "video": ""
   },
   {
-    "title": "Smith 4D Mag goggles",
-    "price": 4,
+    "title": "Protective Knee Pads",
+    "price": 1,
     "bullets": [
-      "ChromaPop low-light lens is unreal in storms",
-      "Magnetic lens swap on a chairlift",
-      "Wide field of view — peripheral matters"
+      "Comfortable and low-profile under snow pants",
+      "Saved my knees countless times",
+      "Must-have when learning and progressing"
     ],
-    "placeholder": "Goggles",
-    "from": "Smith",
-    "url": "#",
+    "placeholder": "Knee pads",
+    "from": "Amazon",
+    "url": "https://amzn.to/4v1lOgO",
     "video": ""
   }
 ]
