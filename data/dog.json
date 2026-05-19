@@ -1,5 +1,19 @@
 [
   {
+    "title": "Fi Smart GPS tracker collar",
+    "price": 2,
+    "bullets": [
+      "Dedicated cell service for constant location tracking(small monthly charge)",
+      "Logs health & activity metrics like an Apple watch for dogs",
+      "Waterproof, long battery, durable."
+    ],
+    "image": "assets/products/fi-collar.jpg",
+    "placeholder": "GPS tracker",
+    "from": "Amazon",
+    "url": "https://amzn.to/3RxlIie",
+    "video": ""
+  },
+  {
     "title": "Mini Dog Treat Pouch for Training",
     "price": 1,
     "bullets": [
