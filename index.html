@@ -894,8 +894,8 @@
     <nav class="chip-row" aria-label="Categories">
       <a class="chip" href="#camera">Camera</a>
       <a class="chip" href="#paddle">Water</a>
-      <a class="chip" href="#camping">Camping</a>
       <a class="chip" href="#hiking">Hiking</a>
+      <a class="chip" href="#camping">Camping</a>
       <a class="chip" href="#dog">Dog</a>
       <a class="chip" href="#snowboard">Snowboarding</a>
     </nav>
@@ -978,6 +978,30 @@
       <hr />
     </div>
 
+    <section class="section" id="hiking">
+      <div class="section-head">
+        <div class="section-title-wrap">
+          <span class="section-eyebrow" aria-hidden="true">🥾</span>
+          <h2 class="section-title">Hiking</h2>
+        </div>
+        <div class="nav-arrows" data-target="car-hiking">
+          <button aria-label="Scroll left" data-dir="-1"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <path d="m15 6-6 6 6 6" />
+            </svg></button>
+          <button aria-label="Scroll right" data-dir="1"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <path d="m9 6 6 6-6 6" />
+            </svg></button>
+        </div>
+      </div>
+      <div class="carousel" id="car-hiking"></div>
+    </section>
+
+    <div class="divider">
+      <hr />
+    </div>
+
     <section class="section" id="camping">
       <div class="section-head">
         <div class="section-title-wrap">
@@ -996,30 +1020,6 @@
         </div>
       </div>
       <div class="carousel" id="car-camping"></div>
-    </section>
-
-    <div class="divider">
-      <hr />
-    </div>
-
-    <section class="section" id="hiking">
-      <div class="section-head">
-        <div class="section-title-wrap">
-          <span class="section-eyebrow" aria-hidden="true">🥾</span>
-          <h2 class="section-title">Hiking / day trips</h2>
-        </div>
-        <div class="nav-arrows" data-target="car-hiking">
-          <button aria-label="Scroll left" data-dir="-1"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2">
-              <path d="m15 6-6 6 6 6" />
-            </svg></button>
-          <button aria-label="Scroll right" data-dir="1"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2">
-              <path d="m9 6 6 6-6 6" />
-            </svg></button>
-        </div>
-      </div>
-      <div class="carousel" id="car-hiking"></div>
     </section>
 
     <div class="divider">
@@ -1100,8 +1100,8 @@
           <li><a href="#featured">Featured</a></li>
           <li><a href="#camera">Camera equipment</a></li>
           <li><a href="#paddle">Water</a></li>
+          <li><a href="#hiking">Hiking</a></li>
           <li><a href="#camping">Camping</a></li>
-          <li><a href="#hiking">Hiking &amp; day trips</a></li>
           <li><a href="#dog">Dog stuff</a></li>
           <li><a href="#snowboard">Snowboarding gear</a></li>
         </ul>
@@ -1141,8 +1141,8 @@
     const SECTIONS = [
       { key: 'camera', file: 'data/camera.json', target: 'car-camera' },
       { key: 'paddle', file: 'data/paddle.json', target: 'car-paddle' },
-      { key: 'camping', file: 'data/camping.json', target: 'car-camping' },
       { key: 'hiking', file: 'data/hiking.json', target: 'car-hiking' },
+      { key: 'camping', file: 'data/camping.json', target: 'car-camping' },
       { key: 'dog', file: 'data/dog.json', target: 'car-dog' },
       { key: 'snow', file: 'data/snow.json', target: 'car-snow' },
     ];
