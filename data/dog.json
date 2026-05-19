@@ -2,10 +2,12 @@
   {
     "title": "Fi Smart GPS tracker collar",
     "price": 2,
+    "featured": true,
+    "position": 1,
     "bullets": [
-      "Dedicated cell service for constant location tracking(small monthly charge)",
+      "Dedicated cell service for constant location tracking - works outside Bluetooth range unlike airtags",
       "Logs health & activity metrics like an Apple watch for dogs",
-      "Waterproof, long battery, durable."
+      "Waterproof, durable, long battery"
     ],
     "image": "assets/products/fi-collar.jpg",
     "placeholder": "GPS tracker",
