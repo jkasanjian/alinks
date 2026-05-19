@@ -3,9 +3,9 @@
     "title": "HEST Foamy Camping Mattress Pad",
     "price": 4,
     "bullets": [
-      "Memory foam is extremely comfortable compared to anything else I've tried - almost feels like my bed",
-      "Great insulation in cold conditions",
-      "Rolls up for transport, but still a little bulky (worth it)"
+      "Memory foam is extremely comfortable - almost feels like my bed",
+      "Great insulation in cold",
+      "Rolls up for transport, kinda bulky but worth the tradeoff"
     ],
     "placeholder": "Camping mattress",
     "from": "Amazon",
@@ -17,9 +17,22 @@
     "price": 3,
     "featured": true,
     "bullets": [
-      "Compact with enough capacity to cover me for 3-4 days with all my devices",
+      "Enough capacity to cover me for 3-4 days with all my devices",
       "Compact and easy to carry despite massive capacity",
-      "Chargable via solar panels, car, or wall outlet"
+      "Charge with solar panel or dual USB-C"
+    ],
+    "placeholder": "Anker battery",
+    "from": "Amazon",
+    "url": "https://amzn.to/49MPgyB",
+    "video": ""
+  },
+  {
+    "title": "Anker Solar Panel",
+    "price": 3,
+    "featured": true,
+    "bullets": [
+      "Compact",
+      "Peace-of-mind that you'll always have power when paired with a battery"
     ],
     "placeholder": "Anker battery",
     "from": "Amazon",
