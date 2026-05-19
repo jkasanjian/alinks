@@ -545,8 +545,16 @@
       margin: 22px auto 0;
       padding: 0 28px;
       display: flex;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       gap: 8px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .chip-row::-webkit-scrollbar {
+      display: none;
     }
 
     .chip {
@@ -561,6 +569,8 @@
       display: inline-flex;
       align-items: center;
       gap: 6px;
+      flex: 0 0 auto;
+      white-space: nowrap;
     }
 
     .chip .emoji {
@@ -848,8 +858,8 @@
       <div class="who">
         <div class="who-name">@josh.goes.outside</div>
         <div class="who-bio">I like going outdoors and making videos. Here's all the gear I use and would
-          recommend with affiliate links to buy*.
-          Thank you for any support. Go outside, touch some grass 🌱 </div>
+          recommend, with my notes and links to buy*.
+          Thank you for any support 🤙 Go outside and touch some grass 🌱 </div>
       </div>
       <div class="socials" aria-label="Social links">
         <a class="social" href="https://www.tiktok.com/@josh.goes.outside" target="_blank" rel="noopener"
@@ -882,13 +892,12 @@
 
     <!-- CHIPS / QUICK NAV -->
     <nav class="chip-row" aria-label="Categories">
-      <a class="chip" href="#featured">Featured</a>
       <a class="chip" href="#camera">Camera</a>
+      <a class="chip" href="#paddle">Water</a>
       <a class="chip" href="#camping">Camping</a>
       <a class="chip" href="#hiking">Hiking</a>
-      <a class="chip" href="#snowboard">Snowboarding</a>
-      <a class="chip" href="#paddle">Beach/lake</a>
       <a class="chip" href="#dog">Dog</a>
+      <a class="chip" href="#snowboard">Snowboarding</a>
     </nav>
 
     <!-- FEATURED -->
@@ -945,6 +954,30 @@
       <hr />
     </div>
 
+    <section class="section" id="paddle">
+      <div class="section-head">
+        <div class="section-title-wrap">
+          <span class="section-eyebrow" aria-hidden="true">🌊</span>
+          <h2 class="section-title">Water</h2>
+        </div>
+        <div class="nav-arrows" data-target="car-paddle">
+          <button aria-label="Scroll left" data-dir="-1"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <path d="m15 6-6 6 6 6" />
+            </svg></button>
+          <button aria-label="Scroll right" data-dir="1"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <path d="m9 6 6 6-6 6" />
+            </svg></button>
+        </div>
+      </div>
+      <div class="carousel" id="car-paddle"></div>
+    </section>
+
+    <div class="divider">
+      <hr />
+    </div>
+
     <section class="section" id="camping">
       <div class="section-head">
         <div class="section-title-wrap">
@@ -993,54 +1026,6 @@
       <hr />
     </div>
 
-    <section class="section" id="snowboard">
-      <div class="section-head">
-        <div class="section-title-wrap">
-          <span class="section-eyebrow" aria-hidden="true">🏂</span>
-          <h2 class="section-title">Snowboarding</h2>
-        </div>
-        <div class="nav-arrows" data-target="car-snow">
-          <button aria-label="Scroll left" data-dir="-1"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2">
-              <path d="m15 6-6 6 6 6" />
-            </svg></button>
-          <button aria-label="Scroll right" data-dir="1"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2">
-              <path d="m9 6 6 6-6 6" />
-            </svg></button>
-        </div>
-      </div>
-      <div class="carousel" id="car-snow"></div>
-    </section>
-
-    <div class="divider">
-      <hr />
-    </div>
-
-    <section class="section" id="paddle">
-      <div class="section-head">
-        <div class="section-title-wrap">
-          <span class="section-eyebrow" aria-hidden="true">🌊</span>
-          <h2 class="section-title">Beach &amp; lake</h2>
-        </div>
-        <div class="nav-arrows" data-target="car-paddle">
-          <button aria-label="Scroll left" data-dir="-1"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2">
-              <path d="m15 6-6 6 6 6" />
-            </svg></button>
-          <button aria-label="Scroll right" data-dir="1"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2">
-              <path d="m9 6 6 6-6 6" />
-            </svg></button>
-        </div>
-      </div>
-      <div class="carousel" id="car-paddle"></div>
-    </section>
-
-    <div class="divider">
-      <hr />
-    </div>
-
     <section class="section" id="dog">
       <div class="section-head">
         <div class="section-title-wrap">
@@ -1059,6 +1044,30 @@
         </div>
       </div>
       <div class="carousel" id="car-dog"></div>
+    </section>
+
+    <div class="divider">
+      <hr />
+    </div>
+
+    <section class="section" id="snowboard">
+      <div class="section-head">
+        <div class="section-title-wrap">
+          <span class="section-eyebrow" aria-hidden="true">🏂</span>
+          <h2 class="section-title">Snowboarding</h2>
+        </div>
+        <div class="nav-arrows" data-target="car-snow">
+          <button aria-label="Scroll left" data-dir="-1"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <path d="m15 6-6 6 6 6" />
+            </svg></button>
+          <button aria-label="Scroll right" data-dir="1"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <path d="m9 6 6 6-6 6" />
+            </svg></button>
+        </div>
+      </div>
+      <div class="carousel" id="car-snow"></div>
     </section>
 
   </main>
@@ -1090,11 +1099,11 @@
         <ul>
           <li><a href="#featured">Featured</a></li>
           <li><a href="#camera">Camera equipment</a></li>
+          <li><a href="#paddle">Water</a></li>
           <li><a href="#camping">Camping</a></li>
           <li><a href="#hiking">Hiking &amp; day trips</a></li>
-          <li><a href="#snowboard">Snowboarding gear</a></li>
-          <li><a href="#paddle">Beach &amp; lake</a></li>
           <li><a href="#dog">Dog stuff</a></li>
+          <li><a href="#snowboard">Snowboarding gear</a></li>
         </ul>
       </div>
     </div>
@@ -1131,11 +1140,11 @@
     */
     const SECTIONS = [
       { key: 'camera', file: 'data/camera.json', target: 'car-camera' },
+      { key: 'paddle', file: 'data/paddle.json', target: 'car-paddle' },
       { key: 'camping', file: 'data/camping.json', target: 'car-camping' },
       { key: 'hiking', file: 'data/hiking.json', target: 'car-hiking' },
-      { key: 'snow', file: 'data/snow.json', target: 'car-snow' },
-      { key: 'paddle', file: 'data/paddle.json', target: 'car-paddle' },
       { key: 'dog', file: 'data/dog.json', target: 'car-dog' },
+      { key: 'snow', file: 'data/snow.json', target: 'car-snow' },
     ];
 
     /* ---------------- RENDER ---------------- */
